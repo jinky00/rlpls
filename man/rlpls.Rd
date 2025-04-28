@@ -64,7 +64,7 @@ a list of rlpls result.
 This is a main function of sparse partial least square regression with random LASSO (RLPLS).
 }
 \examples{
-set.seed(111)
+set.seed(1111)
 # Set the size of samples and true coefficients
 n = 30
 beta0 = c(runif(20,-10,-5),runif(20,5,10),rep(0,10))
